@@ -21,13 +21,9 @@ body{
     justify-content: center;
     flex-direction: column;
     background-color: #1f2937;
-}
-
-.left
-{
-    color: white;
-    font-size: large;
-    font-weight: bold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
 .right{
@@ -39,16 +35,17 @@ body{
 
 .main
 {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    gap: 32px;
 }
 
 .img-right
 {
     max-width: 50%;
+    min-width: 300px;
     height: auto;
     display: block;
 }
@@ -56,8 +53,8 @@ body{
 .img-rightw
 {
     display: flex;
-    justify-content: center;
-    min-width: 300px;
+    justify-content: flex-end;
+    align-items: center;
     flex: 1;
 }
 
@@ -66,4 +63,36 @@ p
     font-size: 18px ;
     font-weight: normal;
     color: rgb(177, 177, 177);
+}
+
+.header-left
+{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.main-left
+{
+    color: white;
+    max-width: 450px;
+}
+
+h1 
+{
+    max-width: 100%;
+}
+
+.hero
+{
+    background-color: #1f2937;
+}
+
+button
+{
+    background-color: #3882f6;
+    color:white;
+    padding: 8px 24px;
+    border: none;
+
 }
