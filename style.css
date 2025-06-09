@@ -48,6 +48,7 @@ body{
     min-width: 300px;
     height: auto;
     display: block;
+    border-radius: 4px;
 }
 
 .img-rightw
@@ -57,8 +58,7 @@ body{
     align-items: center;
     flex: 1;
 }
-
-p
+.leftpar
 {
     font-size: 18px ;
     font-weight: normal;
@@ -88,11 +88,122 @@ h1
     background-color: #1f2937;
 }
 
-button
+.button1
 {
     background-color: #3882f6;
     color:white;
     padding: 8px 24px;
     border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2
+{
+    display: flex;
+    text-align: center;
+    margin: 10px;
+}
+
+.service
+{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    display: block;
+    border: #1f2937 2px solid;
+    border-radius: 4px;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;  
+    text-align: center;      /* Center-align text inside */
+    margin: 0 16px;  
+}      
+
+p
+{
+    font-size: 16px;
+}
+
+.quote
+{
+    background-color: #E5E7EB;
+    display: flex;
+}
+.container3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.quote-text
+{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.quote-author
+{
+    align-self: flex-end;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 24px;
+}
+.call
+{
+    padding: 50px;
+}
+.container4
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3882f6;
+    border-radius: 4px;
+}
+.call-button
+{
+    background-color: #3882f6;
+    border: #E5E7EB 2px solid;
+    color: white;
+    padding: 12px 32px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+}
+
+
+.textcall
+{
+    color: white;
 
 }
